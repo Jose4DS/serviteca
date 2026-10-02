@@ -1,12 +1,12 @@
 # Planeación del proyecto Serviteca ADSO: Sistema de administración de clientes, carros y servicios
 
-**[Nombres de los integrantes del equipo]**
+Jose David Gomez Saavedra
 
-**[Nombre de la institución]**
+Sena
 
-**[Nombre del curso]**
+ADSO
 
-**[Nombre del docente]**
+Carlos Chaparro
 
 2 de octubre de 2026
 
