@@ -1,0 +1,6 @@
+{
+  "name": "SERVITECA",
+  "description": "Aplicación para la administración básica de una serviteca de vehículos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

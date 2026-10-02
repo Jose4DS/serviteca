@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0F0;
+  color: #000000;
+  font-family: "Times New Roman", Times, Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+}
+
+/* Custom scrollbars for clean appearance matching mockups */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F0F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B3A1E;
+  border-radius: 4px;
+}
