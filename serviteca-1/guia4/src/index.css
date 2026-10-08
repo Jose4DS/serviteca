@@ -1,0 +1,67 @@
+/* ── Reset & base ─────────────────────────────────────────────────────────── */
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  background: #c8d8c8;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+}
+
+/* ── Scrollbar personalizada (panel verde) ────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #d4e8d4;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a7c59;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a6b47;
+}
+
+/* ── Focus ring caoba ─────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 3px solid #6B2A2A;
+  outline-offset: 2px;
+}
+
+/* ── Tipografía Times New Roman global ───────────────────────────────────── */
+button, input, select, textarea, label {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ── Animación suave de aparición de pantallas ───────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* ── Input type=date — estilo consistente ────────────────────────────────── */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* ── Select — flecha consistente ─────────────────────────────────────────── */
+select {
+  appearance: auto;
+}
